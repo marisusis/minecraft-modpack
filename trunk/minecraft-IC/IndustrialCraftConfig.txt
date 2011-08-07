@@ -1,0 +1,238 @@
+#All comments must be made after a '#', obviously. To prevent mistakes, blank lines should start with #, as well.
+#
+#enableNano=true
+#Remove the # from the front of the line above, if you have installed the Experimental Nano file into your minecraft.jar, as well.
+#If you enable this, without having that file, Minecraft could crash.
+#If you have that file, without having this enabled, Minecraft WILL crash upon loading a world.
+#
+#
+#addMineableOres=true
+#Remove the # from the front of the line above to make IndustrialCraft load the new Industrially advanced Pickaxe from the respective file.
+#Enabling this WITHOUT using the new aj.class WILL cause crashes.
+#As well, i cannot guarantuee that the effect will apply to pickaxes created BEFORE you enabled this.
+#
+#
+#disableLight3=true
+#Remove the # from the front of the line above to disable Lightbulbs burning stuff (while eating a lot of EU)
+#
+#
+#disableEnergySaving=true
+#Remove the # from the front of the line above to disable some user-friendly effects:
+#-HV Transformers will always emit energy upon receiving current and will NEVER get anything returned
+#-As well, current lost due to cut cables will not be returned to Transmitters, as well
+#-Least, energy loss on uneven splits will not be returned and needs to be prevented by adequate usage of wires and MFEs turnable output
+#
+#doubleEnergyConsume=true
+#quadroubleEnergyConsume=true
+#Removing one of the # from the front of the lines above will increase the energy hunger of all machines, by either 2 or 4.
+#As well, Electric tools will have their uses cut in half upon enabling the quadrouble option
+#
+renderPipes=true
+#Removing the # from the front of the line above activated fence-like (pole-like) rendering for Mining Pipes. However, the textures look semi-crappy and the display in inventory will look like a fence.
+#Thus, this can be activated OPTIONALLY
+#
+generatorDropAll=true
+#Removing the [...] will cause Generators to drop ALL Batterys they charge into a nearvy chest / into the world. NO battery will remain in the result slot, not even a single charged one.
+#
+#disableCableHiding=true
+#For the case you've lost track of where your obscured cables are running: Removing the # will cause all cables, regardless whether they're obscured or not, too display their normal texture. This does NOT "delete" their "hiding" texture. It will just disable it for the time being.
+#
+#disableNuclear=true
+#Mainly meant for server owners: Remove the # to disable crafting of Nukes and Nuclear Reactors.
+#
+#disableForceField=true
+#SMP-only: Remove the # to disable crafting of Field Generators.
+#Field Generators can, in higher count, cause extreme CPU hunger.
+#disableICSL=true
+#SMP-only: Remove the # to disable the IndustrialCraftSecurityLogging. Disrecommended, but can fix crashes related to craftbukkit.
+#
+#BLOCK ID's
+#IF there is incompatibility due to ID matches, you'll most likely need to change these IDs.
+#Please refrain from adding some irregular sign stuff in here, it will most likely make Minecraft's engine very, very sad :_(
+IDblockAdvFurnaceOff=250
+IDblockAdvFurnaceOn=249
+IDblockElecFurnaceOff=248
+IDblockElecFurnaceOn=247
+IDoreTin=229
+#Lolz, while coding i forgot to assign a new ID to tin... now it gets an unfitting on ^^'
+IDoreCopper=246
+IDblockCompressorOff=245
+IDblockCompressorOn=244
+IDblockMaceratorOff=243
+IDblockMaceratorOn=242
+IDblockMachine=241
+IDcopperWire=240
+#Uhm, i probably should have added a "block" in front of it while coding... meh, now it's too late
+IDblockExtractorOff=239
+IDblockExtractorOn=238
+IDblockGenOff=237
+IDblockGenOn=236
+IDblockWaterGenOff=235
+IDblockWaterGenOn=234
+IDblockLavaGenOff=233
+IDblockLavaGenOn=232
+IDblockSolarGenOff=231
+IDblockSolarGenOn=230
+#ID 229 can be found above, oreTin
+IDblockCannerOff=228
+IDblockCannerOn=227
+IDblockAlloy=226
+IDglassAlloy=225
+IDblockRecyclerOff=224
+IDblockRecyclerOn=223
+IDoreUran=222
+IDblockReactorOff=221
+IDblockReactorOn=220
+IDblockItnt=219
+IDblockNtnt=218
+IDblockMinerOff=217
+IDblockMinerOn=216
+IDblockPipe=215
+IDblockCryGenOff=214
+IDblockCryGenOn=213
+IDblockTerraOff=212
+IDblockTerraOn=211
+IDblockAdvMachine=210
+IDblockTransmitOff=209
+IDblockTransmitOn=208
+IDcopperWireRed=207
+IDblockWindGenOff=206
+IDblockWindGenOn=205
+IDblockLight0=204
+IDblockLight1=203
+IDblockLight2=202
+IDblockLight3=201
+IDblockdoorStone=200
+IDblockTransformer=199
+IDblockTesla=198
+IDblockBoomPipe=197
+IDblockDPipe=196
+IDblockWaterPipe=195
+IDblockStorage=194
+IDblockKeyChest=193
+IDblockItemomat=192
+IDblockSellomat=191
+IDblockEnergyomat=190
+IDblockEnergyomatR=189
+IDblockMatterGen=188
+IDblockForceField=187
+IDblockShield=186
+IDblockRelay=185
+IDblockTele=184
+#
+#ITEM ID's
+#As there are 32000 different numbers for items, compatibility errors due to item-ID matches will be rare...
+#I'll add the irridicolous long list of item IDs here, though.
+IDingotAdvIron=30000
+IDakkuFull=29999
+IDakkuEmpty=29998
+IDingotTin=29997
+IDingotCopper=29996
+IDdustTin=29995
+IDdustCopper=29994
+IDdustIron=29993
+IDdustGold=29992
+IDdustCoal=29991
+IDpartElecCircuit=29990
+IDcopperCable=29953
+#Same as with the oreTin here
+IDpartRubber=29989
+#Uhm... I think i can't count from 29989 to 29987 *faceclaw*
+IDitemTreetap=29987
+IDpartPlantball=29986
+IDitemUFuel=29985
+IDitemFuel=29984
+IDitemPlantFuel=29983
+IDitemUPlantFuel=29982
+IDwetdustCoal=29981
+IDpartComPlants=29980
+IDpartComCoal=29979
+IDpickaxeDrill=29978
+IDpickaxeDrillUncharged=29977
+IDitemCharger=29976
+IDpickaxeDDrill=29975
+IDpickaxeDDrillUncharged=29974
+IDpickaxeDrill=29978
+IDpickaxeDrillUncharged=29977
+IDaxeSaw=29973
+IDaxeSawUncharged=29972
+IDitemSuperFuel=29971
+IDdustBronze=29970
+IDingotBronze=29969
+IDshovelBronze=29968
+IDpickaxeBronze=29967
+IDaxeBronze=29966
+IDswordBronze=29965
+IDhoeBronze=29964
+IDhelmetBronze=29963
+IDplateBronze=29962
+IDlegsBronze=29961
+IDbootsBronze=29960
+IDtincan=29959
+IDtincanNew=29958
+IDtincanMeal=29957
+IDcoalball=29956
+IDcoalblock=29955
+IDcoaldiamond=29954
+#29953 is occupied by copperCable
+IDfakediamond=29952
+IDhelmetNano=29951
+IDplateNano=29950
+IDlegsNano=29949
+IDbootsNano=29948
+IDhelmetNanoE=29947
+IDplateNanoE=29946
+IDlegsNanoE=29945
+IDbootsNanoE=29944
+IDhelmetNanoA=29943
+IDplateNanoA=29942
+IDlegsNanoA=29941
+IDbootsNanoA=29940
+IDhelmetNanoAE=29939
+IDplateNanoAE=29938
+IDlegsNanoAE=29937
+IDbootsNanoAE=29936
+IDcarbonForm=29935
+IDcarbon=29934
+IDpartMixPlate=29933
+IDpartAlloy=29932
+IDarmorAlloy=29931
+IDitemBatteryBox=29930
+IDitemOneBattery=29929
+IDpartScrap=29928
+IDitemScrapBox=29927
+IDarmorJetpackFull=29926
+IDarmorJetpackEmpty=29925
+IDitemUran=29924
+IDingotUran=29923
+IDitemMiningLaser=29922
+IDitemMiningLaserE=29921
+IDitemCrystal=29920
+IDitemCrystalCharged=29919
+IDitemScanner=29918
+IDitemScannerE=29917
+IDprintEmpty=29916
+IDprintPlant=29915
+IDprintDry=29914
+IDprintHumid=29913
+IDprintSnow=29912
+IDprintCompress=29911
+IDprintHollow=29910
+IDpartAdvCircuit=29909
+IDcarbonForm2=29908
+IDitemCounter=29907
+IDdustIronsmall=29906
+IDprintFlat=29905
+IDdoorStone=29904
+IDitemWrench=29903
+IDitemCablePaint=29902
+IDarmorBatPackFull=29901
+IDarmorBatPackEmpty=29900
+IDitemElectroCart=29899
+IDadminWrench=29898
+IDcoin=29897
+IDcoinstack=29896
+IDpartMatter=29895
+IDitemFieldTransmit=29894
+IDakkuCrystal=29893
+IDakkuCrystalCharged=29892
