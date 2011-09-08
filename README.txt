@@ -7,12 +7,12 @@
     |_| \__,_||_|\_\\___||_|  |_| \___||_| \_||______| |___/ |_|  |_| \___/  \__,_||_|    \__,_| \___||_|\_\     \/     |_|(_)|____| \___/ 
 
 	
-Thanks for downloading TakeMeNL's Minecraft Modpack V1.2
+Thanks for downloading TakeMeNL's Minecraft Modpack V1.2.2
 This modpack is made from various mods of what i think these are the best.
 I also included the original .zip files of all mods. Please read the readme inside them to understand the how to.
 
 ---------
-The Modpack V1.2
+The Modpack V1.2.2
 ---------
 
 // Minecraft Extended 1.7.3		- http://www.minecraftforum.net/topic/178110-/
@@ -58,7 +58,7 @@ MAC
 CHANGELOG
 ---------
 
-Version 1.20
+Version 1.22
 
 -Added: Minecraft Forge 1.0.7
 -Added: Zombe patch flymod forge
