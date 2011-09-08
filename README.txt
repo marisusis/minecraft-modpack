@@ -20,7 +20,7 @@ ModLoader Beta 1.7.3			- http://www.minecraftforum.net/topic/75440-/
 ModloaderMp UNOFFICIAL 1.7.3	- http://www.minecraftforum.net/topic/182918-/
 Minecraft Forge	1.0.7			- http://www.minecraftforum.net/topic/514000-/
 PropertyReader 2.0  			- http://beta.mcmodcenter.net/files/file/8-PropertyReader/
-zombe's modpack v4.29			- http://www.minecraftforum.net/topic/91055-/
+zombe's modpack v4.33			- http://www.minecraftforum.net/topic/91055-/
 TooManyItems 2011-07-01			- http://www.minecraftforum.net/topic/140684-/
 Full Buildcraft 2.1.1	 		- http://www.minecraftforum.net/topic/286417-/
 ExtraBuildCraftPipes 1.6.6.3.2	- http://www.minecraftforum.net/topic/366370-/
@@ -29,6 +29,7 @@ ToggleBlocks 1.7.3 V2.5			- http://www.minecraftforum.net/topic/196652-/
 RedPowerCore V1.5.1				- http://www.minecraftforum.net/topic/365357-/
 Integrated Redstone V1.5.1		- http://www.minecraftforum.net/topic/365357-/
 RedPowerWiring V1.5.1			- http://www.minecraftforum.net/topic/365357-/
+Zombe Patch Flymod				- http://www.minecraftforum.net/topic/91055-/
 // Better Than Wolves Mod V2.82	- http://www.minecraftforum.net/topic/253365-/
 // IndustrialCraft v8.50 		- http://www.minecraftforum.net/topic/184263-/
 
@@ -63,6 +64,7 @@ Version 1.20
 
 -Added: Minecraft Forge 1.0.7
 -Updated: Buildcraft to 2.1.1
+-Updated: Zombe Modpack v4.33
 -Deleted: minecraft-IC Temporary!
 
 Version 1.10
