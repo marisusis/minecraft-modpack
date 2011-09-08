@@ -184,7 +184,7 @@ keyCraftAll           = LSHIFT
 
 # ==================== fly mod - aka. Flying =================================
 # Uncomment to enable mod:
-#modFlyEnabled         = yes
+modFlyEnabled         = yes
 
 # Turns fly mode on.
 keyFlyOn              =
@@ -193,34 +193,34 @@ keyFlyOn              =
 keyFlyOff             =
 
 # Toggles fly mode.
-keyFlyToggle          = F
+keyFlyToggle          = V
 
 # Fly up.
-keyFlyUp              = E
+keyFlyUp              = SPACE
 
 # Fly down.
-keyFlyDown            = Q
+keyFlyDown            = LSHIFT
 
 # Flying speed modifier key.
-keyFlySpeed           = LSHIFT
+keyFlySpeed           = TAB
 
 # Flying speed modifier is a toggle.
-optFlySpeedIsToggle   = no
+optFlySpeedIsToggle   = yes
 
 # Running speed modifier key.
-keyFlyRun             = LSHIFT
+keyFlyRun             = TAB
 
 # Running speed modifier is a toggle.
-optFlyRunSpeedIsToggle= no
+optFlyRunSpeedIsToggle= yes
 
 # Toggle NoClip mode.
 keyFlyNoClip          = F6
 
 # Whether NoClip mode is enabled by default.
-optFlyNoClip          = no
+optFlyNoClip          = yes
 
 # Running speed multiplier with speed modifier. [0.1 .. 10.0]]
-optFlyRunSpeedMul     = 1.5
+optFlyRunSpeedMul     = 2.5
 
 # Vertical speed multiplier with run speed modifier (ladders & water). [0.1 .. 10.0]
 optFlyRunSpeedVMul    = 1.5
@@ -229,10 +229,10 @@ optFlyRunSpeedVMul    = 1.5
 optFlySpeedVertical   = 0.2
 
 # Movement speed multiplier. [0.1 .. 10.0]
-optFlySpeedMulNormal  = 1.0
+optFlySpeedMulNormal  = 2.5
 
 # Movement speed multiplier with speed modifier. [0.1 .. 10.0]
-optFlySpeedMulModifier= 4.0
+optFlySpeedMulModifier= 5.5
 
 # Jump speed multiplier.  [1.0 .. 10.0]
 optFlyJump            = 1.0
@@ -279,7 +279,7 @@ optPathShow           = no
 
 # ==================== sun mod - aka. Sun Control ============================
 # Uncomment to enable mod:
-#modSunEnabled         = yes
+modSunEnabled         = yes
 
 # Adds time.
 keySunTimeAdd         = ADD
@@ -600,7 +600,7 @@ optResizePigBig       = 10
 
 # ==================== furnace mod - aka. Custom Smelting Recipes ============
 # Uncomment to enable mod:
-#modFurnaceEnabled = yes
+modFurnaceEnabled = yes
 
 # How many units of time is wooden item worth if not told otherwise [1..32767]
 optFurnaceWoodFuel    = 300
@@ -617,7 +617,7 @@ optFurnaceSmeltingTime= 200
 optFurnaceFuelWaste   = yes
 
 # Return empty bucket when using lava bucket.
-optFurnaceReturnBucket = no
+optFurnaceReturnBucket = yes
 
 
 # ==================== dig mod - aka. Digging Speed Adjustment ===============
@@ -637,7 +637,7 @@ optDigHarvestAlways   = false
 
 # ==================== weather mod - aka. Weather Control ====================
 # Uncomment to enable mod:
-#modWeatherEnabled = yes
+modWeatherEnabled = yes
 
 # Used to call rain / end of rain.
 keyWeatherRain        = J
