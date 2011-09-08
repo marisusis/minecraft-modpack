@@ -1,7 +1,8 @@
 
-[RECIPES=recipes-clean.txt]
-[RECIPES=recipes-vanilla.txt]
-//[RECIPES=recipes-example.txt] - uncomment to activate example-recipeset
+//[RECIPES=recipes-clean.txt] - removes all the vanilla game recipes - in case you want to start from nothing
+//[RECIPES=recipes-vanilla.txt] - all the vanilla game resipes are listed there for reference
+//[RECIPES=recipes-example.txt] - uncomment to activate example-recipeset (rarely updated - mostly useful as an example)
+//[RECIPES=recipes-spawner.txt] - uncomment to activate mob-spawner recipeset
 
 [RECIPES]
 // ##############################################################################################################################
@@ -20,6 +21,6 @@
 //       for torch if it existed.
 //   PS. You can redefine recipe results without first removing the recipe. Ex: "torch 1 1 2 C /" will change
 //       the torch recipe result (still produces torches, but only 1 instead of 4)
-//   PS. Besides given item names you can also use their ids if you wish.
+//   PS. Besides given item names (all names are defined in names.txt) you can also use their ids if you wish.
 //
 

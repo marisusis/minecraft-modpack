@@ -1,4 +1,4 @@
-[ITEMS=items-vanilla.txt]
+//[ITEMS=items-vanilla.txt] - all the vanilla game settings are there for reference
 
 //[ITEMS=items-oreglow.txt] - uncomment to activate glowing ores
 //[ITEMS=items-stacking.txt] - uncomment to activate more stackables
