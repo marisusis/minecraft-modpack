@@ -256,6 +256,20 @@ player    13                        // other players
 other     14                        // Other living creatures
 wolf      15                        // neutral mob: Wolf
 
+cageGhast     52/1
+cageCow       52/2
+cageSpider    52/3
+cageSheep     52/4
+cageSkelly    52/5
+cageCreeper   52/6
+cageZombie    52/7
+cageSlimes    52/8
+cagePig       52/9
+cageChicken   52/10
+cageSquid     52/11
+cagePigzombie 52/12
+cageWolf      52/15
+
 // Names for colors - various mods use thous
 // Colors are here in hexadecimal formal: 0xRRGGBB, where R/G/B are the color components in hexadecimal format.
 

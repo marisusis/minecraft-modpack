@@ -20,7 +20,7 @@ disableAllMods        = no
 
 # Removes the error message on screen.
 # NB! It does not fix anything - just removes the message (up to 8 messages).
-clearDisplayedError   = F10
+clearDisplayedError   = F9
 
 # ==================== cloud mod - aka. Cloud Control ========================
 # Uncomment to enable mod:
@@ -141,15 +141,15 @@ optBuildA4            = woolWhite, woolLightGray, woolGray, woolBlack, woolBrown
 optBuildA5            = snowcap, ice, snow, water, lava, fire, glass, pumpkinC, torch
 optBuildA6            = sapling, leaves, flowerY, flowerR, shroomB, shroomR, cactus, pumpkin, reed
 optBuildA7            = blockG, blockI, blockD, blockB, blockL, mossy, nether, soul, web
-optBuildA8            = oreG, oreI, oreC, oreD, oreR, oreY, oreL, repeater, torch
+optBuildA8            = oreG, oreI, oreC, oreD, oreR, oreY, oreL, repeater, torchR
 optBuildA9            = doorW, doorI, switch, red, plateS, plateW, button, dispenser, note
 optBuildB1            = ladder, tracks, fence, stairC, stairW, sign, half, double, picture
 optBuildB2            = pickD, cart, boat, saddle, tnt, cake, bed, bonemeal, torch
 optBuildB3            = halfSand, halfWood, halfCobble, saplingNormal, saplingPine, saplingBirch, bonemeal
 optBuildB4            = red, cart, tracks, railDetect, railPowered
 optBuildB5            = doorTrap, piston, pistonSticky
-optBuildB6            =
-optBuildB7            =
+optBuildB6            = cageChicken, cagePig, cageSheep, cageCow, cageWolf, cageSquid
+optBuildB7            = cageZombie, cageSkelly, cageCreeper, cageSpider, cageSlimes, cagePigzombie, cageGhast
 optBuildB8            = arrow, compass, glass, appleG, swordD, bow, shovelD, pickD, torch
 optBuildB9            = bucketW, watch, glass, appleG, swordD, bow, shovelD, pickD, torch
 
@@ -201,16 +201,16 @@ keyFlyUp              = E
 # Fly down.
 keyFlyDown            = Q
 
-# Speed modifier key.
+# Flying speed modifier key.
 keyFlySpeed           = LSHIFT
 
-# Speed modifier is a toggle.
+# Flying speed modifier is a toggle.
 optFlySpeedIsToggle   = no
 
 # Running speed modifier key.
 keyFlyRun             = LSHIFT
 
-# Runnung speed modifier is a toggle.
+# Running speed modifier is a toggle.
 optFlyRunSpeedIsToggle= no
 
 # Toggle NoClip mode.
@@ -222,6 +222,9 @@ optFlyNoClip          = no
 # Running speed multiplier with speed modifier. [0.1 .. 10.0]]
 optFlyRunSpeedMul     = 1.5
 
+# Vertical speed multiplier with run speed modifier (ladders & water). [0.1 .. 10.0]
+optFlyRunSpeedVMul    = 1.5
+
 # Vertical movement speed. [0.1 .. 1.0]
 optFlySpeedVertical   = 0.2
 
@@ -229,7 +232,14 @@ optFlySpeedVertical   = 0.2
 optFlySpeedMulNormal  = 1.0
 
 # Movement speed multiplier with speed modifier. [0.1 .. 10.0]
-optFlySpeedMulModifier = 4.0
+optFlySpeedMulModifier= 4.0
+
+# Jump speed multiplier.  [1.0 .. 10.0]
+optFlyJump            = 1.0
+
+# Jump speed multiplier while running.  [1.0 .. 100.0]
+# NB! Speed is not the same as height. For example: 1.25 is enough to get over a fence (height 1.5).
+optFlyJumpHigh        = 1.25
 
 # Tag shown when fly mode is active.
 tagFly                = flying
@@ -277,8 +287,9 @@ keySunTimeAdd         = ADD
 # Subtracts time.
 keySunTimeSub         = SUBTRACT
 
-# Modifier to change server time (hold down and press keySunTimeAdd or keySunTimeSub).
-# NB! You need to be an OP in the server for it to accept your changes.
+# Modifier to change real time (hold down and press keySunTimeAdd or keySunTimeSub).
+# NB! You need to be an OP in the SMP server for it to accept your changes.
+# NB! The command works in SP too - despite what the command name might suggest.
 keySunServer          = LSHIFT
 
 # Server command for adjusting time (command & whether to use '+' sign when adding positive time).
@@ -343,6 +354,12 @@ tagSafe               = safe
 
 # Show id of the item currently selected - useful for adding recipes to new items.
 optRecipeShowId       = yes
+
+# Show what recipes could be used with the items on crafting grid.
+optRecipeShowHelp     = yes
+
+# Option to preserve the vanilla recipeset for SMP.
+optRecipeVanillaMP    = no
 
 # Dumps all recipes to log file after loading recipes.txt - debug tool mostly.
 optRecipeDump         = no
@@ -512,8 +529,16 @@ optCheatHighlightMode = 3
 # Syntax: comma separated ore and color pairs, ie "ore/color, ore/color" etc
 optCheatShowOres      = oreI/Cyan, clay/LightCyan, oreG/0xffee00, oreD/0xeeffff, mossy/LightGreen, oreL/LightBlue, oreR/LightRed, cage/LightMagenta, oreC/DarkWhite
 
+# Ore detection horizontal / vertical range. [4 .. 128]
+# NB! max markers shown is 4096
+optCheatShowOresRangeH= 16
+optCheatShowOresRangeV= 64
+
 # Specify what is shown as monter and with what color.
 optCheatShowMobs      = ghast/Blue, spider/Red, skelly/White, creeper/Green, zombie/Yellow, slimes/Magenta, pigzombie/Cyan, squid/DarkBlue, cow/DarkYellow, sheep/DarkWhite, pig/DarkRed, chicken/DarkCyan, other/DarkGreen, wolf/LightWhite, player/LightBlue
+
+# Range at which to show mobs (0 = unlimited) [0 .. 256]
+optCheatShowMobsRange = 0
 
 # Show mob size by adjusting the height of the lines marking their location. Makes it harder to judge distance tho.
 optCheatShowMobsSize  = no
@@ -541,6 +566,9 @@ optCheatInfTools      = no
 
 # Player is immune to fire.
 optCheatFireImmune    = no
+
+# Player does not need air.
+optCheatNoAir         = no
 
 # Show health bars for living creatures.
 optCheatShowHealth    = yes
@@ -710,6 +738,9 @@ optIconShowDispenser  = yes
 # Show on furnace the item icons of fuel, input and output.
 optIconShowFurnace    = yes
 
+# Send a message to server telling that we can handle custom packets.
+optIconMP             = no
+
 
 # ==================== info mod - aka. World Information =====================
 # Uncomment to enable mod:
@@ -733,6 +764,12 @@ optInfoTimeOffset     = 300
 # Show critter health at all times.
 optInfoShowHealth     = no
 
+# Disable the obnoxious achivement pop-ups.
+optInfoHideAchievement= no
+
+# Show info for item in hand
+optInfoShowItem       = yes
+
 
 # ==================== death mod - aka. Death Behavior =======================
 # Uncomment to enable mod:
@@ -741,6 +778,9 @@ optInfoShowHealth     = no
 # Drop player inventory on death.
 optDeathDropInv       = no
 
+# Health penalty on respawn. [0 .. 100]
+# NB! Max HP in vanilla game is 20 and it is quaranteed that you spawn with at least 1 HP.
+optDeathHPPenalty     = 0
 
 # ==================== item mod - aka. Item/Block Properties =================
 # Uncomment to enable mod:
@@ -759,6 +799,15 @@ optItemChangeIce      = yes
 
 # Enable special changes for farmland block: no decay from walking on it.
 optItemChangeFarmland = yes
+
+# Enable special changes for sponge block: eats all horizontally adjecent water source blocks - WARNING: infinite range!
+optItemChangeSponge   = no
+
+# Enable special changes for water block: spawn  source block when there are at least two source blocks at its sides - regardless of what is below it.
+optItemChangeWater    = no
+
+# Enable special changes for mod-spawner block: block can be harvested (does not produce anything when placed - look in "recipe" mods recipes.txt file for ways to make something useful out of it).
+optItemChangeSpawner  = yes
 
 # Enable special changes for leaves block (following options).
 optItemChangeLeaves   = yes
