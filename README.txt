@@ -63,6 +63,7 @@ CHANGELOG
 Version 1.20
 
 -Added: Minecraft Forge 1.0.7
+-Added: Zombe patch flymod forge
 -Updated: Buildcraft to 2.1.1
 -Updated: Zombe Modpack v4.33
 -Deleted: minecraft-IC Temporary!
