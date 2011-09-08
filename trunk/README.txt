@@ -7,7 +7,7 @@
     |_| \__,_||_|\_\\___||_|  |_| \___||_| \_||______| |___/ |_|  |_| \___/  \__,_||_|    \__,_| \___||_|\_\     \/     |_|(_)|____| \___/ 
 
 	
-Thanks for downloading TakeMeNL's Minecraft Modpack V1.1
+Thanks for downloading TakeMeNL's Minecraft Modpack V1.2
 This modpack is made from various mods of what i think these are the best.
 I also included the original .zip files of all mods. Please read the readme inside them to understand the how to.
 
