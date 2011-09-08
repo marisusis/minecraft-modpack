@@ -1,40 +1,40 @@
 
-  _______      _          __  __        _   _  _      _       __  __             _  _____              _     __      __  __    __ 
- |__   __|    | |        |  \/  |      | \ | || |    ( )     |  \/  |           | ||  __ \            | |    \ \    / / /_ |  /_ |
-    | |  __ _ | | __ ___ | \  / |  ___ |  \| || |    |/ ___  | \  / |  ___    __| || |__) |__ _   ___ | | __  \ \  / /   | |   | |
-    | | / _` || |/ // _ \| |\/| | / _ \| . ` || |      / __| | |\/| | / _ \  / _` ||  ___// _` | / __|| |/ /   \ \/ /    | |   | |
-    | || (_| ||   <|  __/| |  | ||  __/| |\  || |____  \__ \ | |  | || (_) || (_| || |   | (_| || (__ |   <     \  /     | | _ | |
-    |_| \__,_||_|\_\\___||_|  |_| \___||_| \_||______| |___/ |_|  |_| \___/  \__,_||_|    \__,_| \___||_|\_\     \/      |_|(_)|_|
+  _______      _          __  __        _   _  _      _       __  __             _  _____              _     __      __ __     ___    ___  
+ |__   __|    | |        |  \/  |      | \ | || |    ( )     |  \/  |           | ||  __ \            | |    \ \    / //_ |   |__ \  / _ \ 
+    | |  __ _ | | __ ___ | \  / |  ___ |  \| || |    |/ ___  | \  / |  ___    __| || |__) |__ _   ___ | | __  \ \  / /  | |      ) || | | |
+    | | / _` || |/ // _ \| |\/| | / _ \| . ` || |      / __| | |\/| | / _ \  / _` ||  ___// _` | / __|| |/ /   \ \/ /   | |     / / | | | |
+    | || (_| ||   <|  __/| |  | ||  __/| |\  || |____  \__ \ | |  | || (_) || (_| || |   | (_| || (__ |   <     \  /    | | _  / /_ | |_| |
+    |_| \__,_||_|\_\\___||_|  |_| \___||_| \_||______| |___/ |_|  |_| \___/  \__,_||_|    \__,_| \___||_|\_\     \/     |_|(_)|____| \___/ 
 
 	
-
 Thanks for downloading TakeMeNL's Minecraft Modpack V1.1
 This modpack is made from various mods of what i think these are the best.
 I also included the original .zip files of all mods. Please read the readme inside them to understand the how to.
 
-
 ---------
-The Modpack V1.1
+The Modpack V1.2
 ---------
 
 Minecraft Extended 1.7.3		- http://www.minecraftforum.net/topic/178110-/
 ModLoader Beta 1.7.3			- http://www.minecraftforum.net/topic/75440-/
 ModloaderMp UNOFFICIAL 1.7.3	- http://www.minecraftforum.net/topic/182918-/
+Minecraft Forge	1.0.7			- http://www.minecraftforum.net/topic/514000-/
 PropertyReader 2.0  			- http://beta.mcmodcenter.net/files/file/8-PropertyReader/
 zombe's modpack v4.29			- http://www.minecraftforum.net/topic/91055-/
 TooManyItems 2011-07-01			- http://www.minecraftforum.net/topic/140684-/
-Full Buildcraft 1.7.3.2 		- http://www.minecraftforum.net/topic/286417-/
+Full Buildcraft 2.1.1	 		- http://www.minecraftforum.net/topic/286417-/
 ExtraBuildCraftPipes 1.6.6.3.2	- http://www.minecraftforum.net/topic/366370-/
 Pfaeffs Mod V0.8.3				- http://www.minecraftforum.net/topic/200272-/
 ToggleBlocks 1.7.3 V2.5			- http://www.minecraftforum.net/topic/196652-/
 RedPowerCore V1.5.1				- http://www.minecraftforum.net/topic/365357-/
 Integrated Redstone V1.5.1		- http://www.minecraftforum.net/topic/365357-/
 RedPowerWiring V1.5.1			- http://www.minecraftforum.net/topic/365357-/
-Better Than Wolves Mod V2.82	- http://www.minecraftforum.net/topic/253365-/
-IndustrialCraft v8.50 			- http://www.minecraftforum.net/topic/184263-/
+// Better Than Wolves Mod V2.82	- http://www.minecraftforum.net/topic/253365-/
+// IndustrialCraft v8.50 		- http://www.minecraftforum.net/topic/184263-/
 
 
-
+## = Removed
+// = Temporary Removed
 ---------
 Install
 ---------
@@ -58,6 +58,12 @@ MAC
 ---------
 CHANGELOG
 ---------
+
+Version 1.20
+
+-Added: Minecraft Forge 1.0.7
+-Updated: Buildcraft to 2.1.1
+-Deleted: minecraft-IC Temporary!
 
 Version 1.10
 
@@ -87,4 +93,17 @@ Copyright
 ---------
 All rights go to there original onwers and makers.
 I do not own one of thes mods, i only pack them in a file.
-This project has a Apache V2.0 Licence Copyright!
+
+Copyright 2011 TakeMeNL
+
+   Licensed under the Apache License, Version 2.0 (the "License").
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
