@@ -1,64 +1,95 @@
+  _______      _          __  __        _   _  _      _       __  __             _                      _    
+ |__   __|    | |        |  \/  |      | \ | || |    ( )     |  \/  |           | |                    | |   
+    | |  __ _ | | __ ___ | \  / |  ___ |  \| || |    |/ ___  | \  / |  ___    __| | _ __    __ _   ___ | | __
+    | | / _` || |/ // _ \| |\/| | / _ \| . ` || |      / __| | |\/| | / _ \  / _` || '_ \  / _` | / __|| |/ /
+    | || (_| ||   <|  __/| |  | ||  __/| |\  || |____  \__ \ | |  | || (_) || (_| || |_) || (_| || (__ |   < 
+    |_| \__,_||_|\_\\___||_|  |_| \___||_| \_||______| |___/ |_|  |_| \___/  \__,_|| .__/  \__,_| \___||_|\_\
+                                                                                   | |                       
+                                                                                   |_|                       
 
-  _______      _          __  __        _   _  _      _       __  __             _  _____              _     __      __ __     ___    ___  
- |__   __|    | |        |  \/  |      | \ | || |    ( )     |  \/  |           | ||  __ \            | |    \ \    / //_ |   |__ \  / _ \ 
-    | |  __ _ | | __ ___ | \  / |  ___ |  \| || |    |/ ___  | \  / |  ___    __| || |__) |__ _   ___ | | __  \ \  / /  | |      ) || | | |
-    | | / _` || |/ // _ \| |\/| | / _ \| . ` || |      / __| | |\/| | / _ \  / _` ||  ___// _` | / __|| |/ /   \ \/ /   | |     / / | | | |
-    | || (_| ||   <|  __/| |  | ||  __/| |\  || |____  \__ \ | |  | || (_) || (_| || |   | (_| || (__ |   <     \  /    | | _  / /_ | |_| |
-    |_| \__,_||_|\_\\___||_|  |_| \___||_| \_||______| |___/ |_|  |_| \___/  \__,_||_|    \__,_| \___||_|\_\     \/     |_|(_)|____| \___/ 
+---------------------------------------------------------------------------------------------------------------------------------------------
 
-	
-Thanks for downloading TakeMeNL's Minecraft Modpack V1.2.2
+Thanks for downloading TakeMeNL's Minecraft Modpack 1.3 (MC: 1.8.1)
 This modpack is made from various mods of what i think these are the best.
 I also included the original .zip files of all mods. Please read the readme inside them to understand the how to.
 
 ---------
-The Modpack V1.2.2
+The Modpack Version 1.3 (MC: 1.8.1)
 ---------
+CORE:
+ModLoader					- http://www.minecraftforum.net/topic/75440-/
+ModLoaderMP					- http://www.minecraftforum.net/topic/182918-/
+Minecraft Forge				- http://www.minecraftforum.net/topic/514000-/
+GuiApi						- http://www.minecraftforum.net/topic/612536-/
+AudioMod					- http://www.minecraftforum.net/topic/75440-/
 
-// Minecraft Extended 1.7.3		- http://www.minecraftforum.net/topic/178110-/
-ModLoader Beta 1.7.3			- http://www.minecraftforum.net/topic/75440-/
-ModLoaderMp 1.7.3 Unofficial V2	- http://www.minecraftforum.net/topic/182918-/
-Minecraft Forge	1.0.6			- http://www.minecraftforum.net/topic/514000-/
-PropertyReader 2.0  			- http://beta.mcmodcenter.net/files/file/8-PropertyReader/
-zombe's modpack v4.33			- http://www.minecraftforum.net/topic/91055-/
-TooManyItems 2011-07-01			- http://www.minecraftforum.net/topic/140684-/
-Zombe Patch Flymod				- http://www.minecraftforum.net/topic/91055-/
-Full Buildcraft 2.1.1	 		- http://www.minecraftforum.net/topic/286417-/
-ExtraBuildCraftPipes 2.0.1.2	- http://www.minecraftforum.net/topic/366370-/
-Pfaeffs Mod V0.8.3				- http://www.minecraftforum.net/topic/200272-/
-ToggleBlocks 1.7.3 V2.6			- http://www.minecraftforum.net/topic/196652-/
-Full RedPower V1.7.1			- http://www.minecraftforum.net/topic/365357-/
-// Better Than Wolves Mod V2.82	- http://www.minecraftforum.net/topic/253365-/
-// IndustrialCraft v8.50 		- http://www.minecraftforum.net/topic/184263-/
+CONTENT:
+Buildcraft 					- http://www.minecraftforum.net/topic/682920-/
+IndustrialCraft2			- http://www.minecraftforum.net/topic/604928-/
+Pfaeffs Mod					- http://www.minecraftforum.net/topic/200272-/
+RedPower					- http://www.minecraftforum.net/topic/365357-/
+Wireless Redstone			- http://www.minecraftforum.net/topic/328725-/
+Zeppelin					- http://www.minecraftforum.net/topic/488434-/
+MineFactory Reloaded		- http://www.minecraftforum.net/topic/554413-/
+
+ENVIRONMENT:
+Nature Overhaul				- http://www.minecraftforum.net/topic/191599-/
+
+ITEM:
+Recipe Book					- http://www.minecraftforum.net/topic/75440-/
+Crafting Book				- http://www.minecraftforum.net/topic/78064-/
+
+SOUND:
+MAtmos						- http://www.minecraftforum.net/topic/379925-/
+
+TWEAK:
+Convenient Inventory		- http://www.minecraftforum.net/topic/764515-/
+Optifine					- http://www.minecraftforum.net/topic/249637-/
+Rei's Minimap				- http://www.minecraftforum.net/topic/482147-/
+Simple Player Commands		- http://www.minecraftforum.net/topic/94310-/
+TooManyItems				- http://www.minecraftforum.net/topic/140684-/
 
 
-## = Removed
-// = Temporary Removed
+Temporary Removed:
+// Better Than Wolves Mod	- http://www.minecraftforum.net/topic/253365-/  	- Not compitable
+// Additional Pipes			- http://www.minecraftforum.net/topic/653775-/  	- Not Updated yet
+// Zombe's modpack			- http://www.minecraftforum.net/topic/91055-/ 		- Not working with Forge
+
 ---------
 Install
 ---------
-
-WINDOWS
----
-1) Open up %appdata%, if you don't know how to do this, start>run, then type in %appdata%
-2) Browse to .minecraft
-3) Copy and Past the contents of the "minecraft-%" folder to the ".minecraft" folder, allow overwrite.
-4) Run Minecraft, enjoy!
-
-MAC
----
-1) Navgate to ~/Library/Application Support/
-2) Copy and past the content of "minecraft-%" folder into you "minecraft", allow overwrite.
-3) Run Minecraft, enjoy!
-
-% = wildcard to what you choose. This can be IC or Normal.
-
+Just open the TakeMeNLs_Modpack_Installer and follow the instructions!
+Simple is that!
 
 ---------
 CHANGELOG
 ---------
+Version 1.3 (MC: 1.8.1)
 
-Version 1.22
+-Added: TakeMeNL's Modpack Installer!
+-Added: Wireless Redstone
+-Added: Zeppelin
+-Added: Nature Overhaul
+-Added: Additional Pipes
+-Added: Crafting Book
+-Added: Recipe Book
+-Added: MAtmos
+-Added: Convenient Inventory
+-Added: Optifine
+-Added: Rei's Minimap
+-Added: Simple Player Commands
+-Changed: Name of modpack. Version: [MC VERSION] ([MODPACK VERSION FOR MC])
+-Updated: ModLoader
+-Updated: ModLoaderMP
+-Updated: TooManyItems
+-Updated: Buildcraft
+-Updated: IndustrialCraft2
+-Updated: Pfaeffs Mod
+-Updated: RedPower
+-Updated: Zombe's modpack
+-Removed: Toggle Blocks
+
+Version 1.22 (MC: 1.7.3)
 
 -Added: Minecraft Forge 1.0.7
 -Added: Zombe patch flymod forge
