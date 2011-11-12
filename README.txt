@@ -78,7 +78,7 @@ Version 1.3 (MC: 1.8.1)
 -Added: Optifine
 -Added: Rei's Minimap
 -Added: Simple Player Commands
--Changed: Name of modpack. Version: [MC VERSION] ([MODPACK VERSION FOR MC])
+-Changed: Name of modpack. Version: [MODPACK VERSION] ([MC VERSION])
 -Updated: ModLoader
 -Updated: ModLoaderMP
 -Updated: TooManyItems
