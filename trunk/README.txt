@@ -48,12 +48,11 @@ Optifine					- http://www.minecraftforum.net/topic/249637-/
 Rei's Minimap				- http://www.minecraftforum.net/topic/482147-/
 Simple Player Commands		- http://www.minecraftforum.net/topic/94310-/
 TooManyItems				- http://www.minecraftforum.net/topic/140684-/
-
+Zombe's modpack				- http://www.minecraftforum.net/topic/91055-/
 
 Temporary Removed:
 // Better Than Wolves Mod	- http://www.minecraftforum.net/topic/253365-/  	- Not compitable
 // Additional Pipes			- http://www.minecraftforum.net/topic/653775-/  	- Not Updated yet
-// Zombe's modpack			- http://www.minecraftforum.net/topic/91055-/ 		- Not working with Forge
 
 ---------
 Install
