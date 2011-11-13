@@ -57,8 +57,11 @@ Temporary Removed:
 ---------
 Install
 ---------
-Just open the TakeMeNLs_Modpack_Installer and follow the instructions!
+YOU NEED JAVA TO USE IT!
+Open the TakeMeNLs_Modpack_Installer with Java!
+Follow the instructions!
 Simple is that!
+
 
 ---------
 CHANGELOG
