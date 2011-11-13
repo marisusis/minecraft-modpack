@@ -3,7 +3,7 @@
 <list name="Consumable Food">
 	<descriptible>
 		<nickname>Consumable Food</nickname>
-		<description></description>
+		<description>Food!!!</description>
 		<icon></icon>
 		<meta></meta>
 	</descriptible>
@@ -456,8 +456,8 @@
 		<icon></icon>
 		<meta></meta>
 	</descriptible>
+	<truepart>Interact Right Action Continuous</truepart>
 	<truepart>Interact Consumable Food</truepart>
-	<truepart>Interact Item Select</truepart>
 </set>
 <set name="Interact Critical Hit">
 	<descriptible>
@@ -480,7 +480,7 @@
 		<icon></icon>
 		<meta></meta>
 	</descriptible>
-	<truepart>Interact Hands</truepart>
+	<truepart>Interact Right Action Continuous</truepart>
 </set>
 <set name="Interact Hands Select">
 	<descriptible>
@@ -615,6 +615,30 @@
 	<truepart>Interact Utility</truepart>
 	<truepart>Interact Item Select</truepart>
 </set>
+<event name="Emit Sound Consumable Food Draw">
+	<descriptible>
+		<nickname>Emit Sound Consumable Food Draw</nickname>
+		<description></description>
+		<icon></icon>
+		<meta></meta>
+	</descriptible>
+	<path>newsound/matmos_interactions/Eating-1.ogg</path>
+	<path>newsound/matmos_interactions/Eating-2.ogg</path>
+	<path>newsound/matmos_interactions/Eating-3.ogg</path>
+	<path>newsound/matmos_interactions/Eating-4.ogg</path>
+	<path>newsound/matmos_interactions/Eating-5.ogg</path>
+	<path>newsound/matmos_interactions/Eating-6.ogg</path>
+	<path>newsound/matmos_interactions/Eating-7.ogg</path>
+	<path>newsound/matmos_interactions/Eating-8.ogg</path>
+	<path>newsound/matmos_interactions/Eating-9.ogg</path>
+	<path>newsound/matmos_interactions/Eating-10.ogg</path>
+	<path>newsound/matmos_interactions/Eating-11.ogg</path>
+	<volmin>0.8</volmin>
+	<volmax>1.2</volmax>
+	<pitchmin>0.8</pitchmin>
+	<pitchmax>1.0</pitchmax>
+	<metasound>8</metasound>
+</event>
 <event name="Interact Bow Draw">
 	<descriptible>
 		<nickname>Interact Bow Draw</nickname>
@@ -644,20 +668,6 @@
 	<volmin>1.0</volmin>
 	<volmax>1.0</volmax>
 	<pitchmin>0.8</pitchmin>
-	<pitchmax>1.1</pitchmax>
-	<metasound>0</metasound>
-</event>
-<event name="Interact Consumable Food Draw">
-	<descriptible>
-		<nickname>Interact Consumable Food Draw</nickname>
-		<description></description>
-		<icon></icon>
-		<meta></meta>
-	</descriptible>
-	<path>newsound/matmos_interactions/food_draw.ogg</path>
-	<volmin>1.0</volmin>
-	<volmax>1.0</volmax>
-	<pitchmin>0.9</pitchmin>
 	<pitchmax>1.1</pitchmax>
 	<metasound>0</metasound>
 </event>
@@ -959,7 +969,7 @@
 	</descriptible>
 	<allow>Interact Consumable Food Draw</allow>
 	<eventtimed>
-		<eventname>Interact Consumable Food Draw</eventname>
+		<eventname>Emit Sound Consumable Food Draw</eventname>
 		<delaymin>10.0</delaymin>
 		<delaymax>10.0</delaymax>
 		<delaystart>-1.0</delaystart>
