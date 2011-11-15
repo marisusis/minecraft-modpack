@@ -1,0 +1,144 @@
+# ==================== fly mod - aka. Flying =================================
+# Uncomment to enable mod:
+modFlyEnabled         = yes
+
+# Turns fly mode on.
+keyFlyOn              =
+
+# Turns fly mode off.
+keyFlyOff             =
+
+# Toggles fly mode.
+keyFlyToggle          = V
+
+# Fly up.
+keyFlyUp              = SPACE
+
+# Fly down.
+keyFlyDown            = LSHIFT
+
+# Flying speed modifier key.
+keyFlySpeed           = TAB
+
+# Flying speed modifier is a toggle.
+optFlySpeedIsToggle   = yes
+
+# Running speed modifier key.
+keyFlyRun             = TAB
+
+# Running speed modifier is a toggle.
+optFlyRunSpeedIsToggle= yes
+
+# Toggle NoClip mode.
+keyFlyNoClip          = F6
+
+# Whether NoClip mode is enabled by default.
+optFlyNoClip          = yes
+
+# Running speed multiplier with speed modifier. [0.1 .. 10.0]]
+optFlyRunSpeedMul     = 2.5
+
+# Vertical speed multiplier with run speed modifier (ladders & water). [0.1 .. 10.0]
+optFlyRunSpeedVMul    = 2.0
+
+# Vertical movement speed. [0.1 .. 1.0]
+optFlySpeedVertical   = 0.2
+
+# Movement speed multiplier. [0.1 .. 10.0]
+optFlySpeedMulNormal  = 2.5
+
+# Movement speed multiplier with speed modifier. [0.1 .. 10.0]
+optFlySpeedMulModifier= 10.0
+
+# Jump speed multiplier.  [1.0 .. 10.0]
+optFlyJump            = 1.0
+
+# Jump speed multiplier while running.  [1.0 .. 100.0]
+# NB! Speed is not the same as height. For example: 1.25 is enough to get over a fence (height 1.5).
+optFlyJumpHigh        = 1.25
+
+# Tag shown when fly mode is active.
+tagFly                = flying
+
+# Tag shown when no clip mode is active.
+tagFlyNoClip          = noclip
+
+# ==================== sun mod - aka. Sun Control ============================
+# Uncomment to enable mod:
+#modSunEnabled         = yes
+
+# Adds time.
+keySunTimeAdd         = ADD
+
+# Subtracts time.
+keySunTimeSub         = SUBTRACT
+
+# Modifier to change real time (hold down and press keySunTimeAdd or keySunTimeSub).
+# NB! You need to be an OP in the SMP server for it to accept your changes.
+# NB! The command works in SP too - despite what the command name might suggest.
+keySunServer          = LSHIFT
+
+# Server command for adjusting time (command & whether to use '+' sign when adding positive time).
+optSunServerCmd       = /time add
+optSunServerCmdPlus   = no
+
+# Stops time.
+keySunStop            = END
+
+# Normalizes and resumes time.
+keySunTimeNormal      = EQUALS
+
+# Time in seconds to add/subtract per keypress. [1 .. 600]
+optSunTimeStep        = 30
+
+# Tag in front of time offset.
+tagSunTime            = time
+
+
+# ==================== weather mod - aka. Weather Control ====================
+# Uncomment to enable mod:
+#modWeatherEnabled = yes
+
+# Used to call rain / end of rain.
+keyWeatherRain        = J
+
+# Used to call thunderstorm / end of thunder.
+keyWeatherThunderstorm = K
+
+# Used to call a lightning strike to where you are pointing. (You might want to use CAPITAL, aka CapsLock, instead)
+keyWeatherLightning   = U
+
+# When used with conjunction of calling a thunderstorm - maximizes thunder frequency.
+keyWeatherMayhem      = LSHIFT
+
+# Prvents all natural changes to weather (ie. if it does not rain then it will never start on its own).
+optWeatherLocked      = no
+
+# Removes the rain effect from game - while leaving the rest intact (sound / light / water-particles on ground).
+optWeatherNoDraw      = no
+
+# NB! You get actual thunder only when it is raining at the same time.
+
+# 1 in x chance for thunder in thunderstorm. [1 .. 500000]
+# (chance for thunder per chunk is 20*1/x)
+optWeatherThunderChance = 100000
+
+# 1 in x chance for thunder in thunderstorm when mayhem mode is active [1 .. 10000]
+optWeatherThunderMayhemChance = 2000
+
+# Rain duration in seconds. [10 .. 3600]
+optWeatherRainTime    = 180 .. 600
+
+# Pause between rain in seconds. [10 .. 14400]
+optWeatherNoRainTime  = 600 .. 8400
+
+# Thunderstorm duration in seconds. [10 .. 3600]
+optWeatherThunderTime = 180 .. 600
+
+# Pause between thunderstorms in seconds. [10 .. 14400]
+optWeatherNoThunderTime = 600 .. 8400
+
+# Weather tags.
+tagWeatherRaining     = raining
+tagWeatherThundering  = thunder
+tagWeatherMayhem      = mayhem

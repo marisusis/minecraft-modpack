@@ -6,7 +6,7 @@ IN YOUR MINECRAFT FOLDER PRIOR TO INSTALLING!<br><br>
 I am not responsible for any damage this causes including<br>
 but not limited to: Your PC, Minecraft installation and/or saved games.<br>
 Please read the documentation thoroughly before installing!<br><br>
-Select <b>NEXT</b> to install TakeMeNL's Modpack V1.3 automatically into your default Minecraft<br>
+Select <b>NEXT</b> to install TakeMeNL's Modpack automatically into your default Minecraft<br>
 location. Or select <b>Set Target Minecraft Folder...</b> to manually<br>
 select your Minecraft directory.<br/>
 </center></html>

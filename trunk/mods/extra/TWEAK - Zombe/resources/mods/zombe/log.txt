@@ -1,0 +1,10 @@
+=========== logging ===========
+ZModPack: version 4.37
+Log started at: 2011-11-13 17:17:14.439
+*** initialization ***
+info: processing configuration
+info: parsing "names.txt"
+info: loading config for "fly"
+info: configuration loaded
+*** done ***
+info: init render
