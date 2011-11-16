@@ -9,12 +9,12 @@
 
 ---------------------------------------------------------------------------------------------------------------------------------------------
 
-Thanks for downloading TakeMeNL's Minecraft Modpack 1.3.1 (MC: 1.8.1)
+Thanks for downloading TakeMeNL's Minecraft Modpack 1.3.2 (MC: 1.8.1)
 This modpack is made from various mods of what i think these are the best.
 I also included the original .zip files of all mods. Please read the readme inside them to understand the how to.
 
 ---------
-The Modpack Version 1.3.1 (MC: 1.8.1)
+The Modpack Version 1.3.2 (MC: 1.8.1)
 ---------
 CORE:
 ModLoader					- http://www.minecraftforum.net/topic/75440-/
@@ -51,7 +51,6 @@ TooManyItems				- http://www.minecraftforum.net/topic/140684-/
 Zombe's modpack				- http://www.minecraftforum.net/topic/91055-/
 
 Temporary Removed:
-// Better Than Wolves Mod	- http://www.minecraftforum.net/topic/253365-/  	- Not compitable
 // Additional Pipes			- http://www.minecraftforum.net/topic/653775-/  	- Not Updated yet
 
 ---------
@@ -66,6 +65,10 @@ Simple is that!
 ---------
 CHANGELOG
 ---------
+Version 1.3.2 (MC: 1.8.1)
+
+-Fixed: Missing Sound
+
 Version 1.3.1 (MC: 1.8.1)
 
 -Added: Zombe's modpack
