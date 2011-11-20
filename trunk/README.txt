@@ -25,6 +25,7 @@ AudioMod					- http://www.minecraftforum.net/topic/75440-/
 
 CONTENT:
 Buildcraft 					- http://www.minecraftforum.net/topic/682920-/
+Additional Pipes			- http://www.minecraftforum.net/topic/653775-/ 
 IndustrialCraft2			- http://www.minecraftforum.net/topic/604928-/
 Pfaeffs Mod					- http://www.minecraftforum.net/topic/200272-/
 RedPower					- http://www.minecraftforum.net/topic/365357-/
@@ -51,7 +52,7 @@ TooManyItems				- http://www.minecraftforum.net/topic/140684-/
 Zombe's modpack				- http://www.minecraftforum.net/topic/91055-/
 
 Temporary Removed:
-// Additional Pipes			- http://www.minecraftforum.net/topic/653775-/  	- Not Updated yet
+//
 
 ---------
 Install
@@ -65,6 +66,10 @@ Simple is that!
 ---------
 CHANGELOG
 ---------
+Version 1.3.3 (MC: 1.8.1)
+
+-Updated: Additional Pipes
+
 Version 1.3.2 (MC: 1.8.1)
 
 -Fixed: Missing Sound
